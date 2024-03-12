@@ -7,7 +7,7 @@
 const fs = require('fs');
 
 // Lee de manera sincrónica (bloqueante) el contenido del archivo 'README.md' en formato UTF-8
-const content = fs.readFileSync('README.md', 'utf8');
+const content = fs.readFileSync('texto.txt', 'utf8');
 
 // Divide el contenido del archivo en un array de palabras utilizando el espacio como delimitador
 const palabras = content.split(' ');
